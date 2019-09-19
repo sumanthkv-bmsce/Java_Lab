@@ -12,10 +12,10 @@ class book{
 	int pages;
 	
 	book(){
-		this.name = "";
-		this.author = "";
-		this.price = 0.0;
-		this.pages = 0;
+		name = "";
+		author = "";
+		price = 0.0;
+		pages = 0;
 		}
 	void get_val(){
 		Scanner scan = new Scanner(System.in);
