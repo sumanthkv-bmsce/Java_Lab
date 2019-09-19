@@ -11,9 +11,9 @@ class sgpa{
 	
 	sgpa(int n){
 		this.n = n;
-		this.marks = new int [n];
-		this.credits = new int [n];
-		this.grades = new int [n];
+		marks = new int [n];
+		credits = new int [n];
+		grades = new int [n];
 		}
 
 	void calcin(){
